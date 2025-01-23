@@ -1,10 +1,9 @@
-<<<<<<< HEAD
 apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: example-deployment
 spec:
-  replicas: 5
+  replicas: 3
   selector:
     matchLabels:
       app: example
@@ -18,5 +17,3 @@ spec:
         image: example-image
         ports:
         - containerPort: 8082
-=======
->>>>>>> parent of 99d21f6 (Port changes)
